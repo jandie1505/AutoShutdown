@@ -22,6 +22,7 @@ Shuts a minecraft server down after a specific time. Made for cloud systems to s
 
 ## Manage auto shutdown with other plugins
 ```java
+// get AutoShutdown plugin
 AutoShutdown autoShutdown = (AutoShutdown) this.getServer().getPluginManager().getPlugin("AutoShutdown");
 
 // get status
