@@ -1,0 +1,13 @@
+main: net.jandie1505.autoshutdown.AutoShutdown
+name: AutoShutdown
+version: 1.0
+commands:
+  autoshutdown:
+    usage: /autoshutdown disable/enable/get/set
+    description: Enable/disable auto shutdown  or set time
+    permission: autoshutdown.command
+permissions:
+  autoshutdown.command:
+    description: Permission for autoshutdown command
+api-version: 1.13
+description: Shuts the server down after a specific time
