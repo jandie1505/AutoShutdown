@@ -136,6 +136,7 @@ public class AutoShutdown extends JavaPlugin implements CommandExecutor, TabComp
     private JSONObject getDefaultConfig() {
         JSONObject config = new JSONObject();
 
+        config.put("enabled", false);
         config.put("time", 3600);
 
         return config;
